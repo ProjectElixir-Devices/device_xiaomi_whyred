@@ -14,7 +14,8 @@ PRODUCT_COMPRESSED_APEX := false
 # Speed up apps
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUI \
+    Launcher3QuickStep \
 
 
 
