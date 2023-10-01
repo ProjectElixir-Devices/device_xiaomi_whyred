@@ -13,3 +13,6 @@ telephony.lteOnCdmaDevice=1
 # Props
 persist.sys.disable_rescue=true
 ro.sys.sdcardfs=0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
