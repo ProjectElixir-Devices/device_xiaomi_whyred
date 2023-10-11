@@ -134,6 +134,9 @@ persist.vendor.ov13855_sunny.low.lux=385
 persist.vendor.s5k3l8_ofilm.light.lux=367
 persist.vendor.s5k3l8_ofilm.low.lux=379
 
+# Dalvik
+dalvik.vm.systemuicompilerfilter=speed
+
 # Display
 debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
