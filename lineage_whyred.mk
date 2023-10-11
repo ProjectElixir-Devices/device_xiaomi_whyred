@@ -25,6 +25,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit some common device props
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
