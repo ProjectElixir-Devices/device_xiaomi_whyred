@@ -328,4 +328,7 @@
         <transport>hwbinder</transport>
         <fqname>@3.0::IKeymasterDevice/default</fqname>
     </hal>
+    <sepolicy>
+        <version>34.0</version>
+    </sepolicy>
 </manifest>
