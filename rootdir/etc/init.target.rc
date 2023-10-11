@@ -121,6 +121,9 @@ on property:vendor.usb.controller=*
     setprop sys.usb.controller ${vendor.usb.controller}
     write /sys/module/usb_f_qcrndis/parameters/rndis_dl_max_xfer_size 15916
 
+    # Touchpanel
+    write /sys/touchpanel/double_tap 1
+
 #Peripheral manager
 service vendor.per_mgr /system/vendor/bin/pm-service
     class core
