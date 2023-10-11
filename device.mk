@@ -17,8 +17,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Launcher3QuickStep \
 
-
-
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
@@ -198,10 +196,6 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.9 \
     vendor.display.config@2.0
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
