@@ -140,6 +140,13 @@ persist.vendor.s5k3l8_ofilm.low.lux=379
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
 
+# Dirac
+ro.audio.soundfx.dirac=true
+persist.audio.dirac.speaker=true
+persist.dirac.acs.controller=qem
+persist.dirac.acs.ignore_error=1
+persist.dirac.acs.storeSettings=1
+
 # Display
 debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
