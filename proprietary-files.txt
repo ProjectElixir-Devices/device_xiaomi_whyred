@@ -30,9 +30,6 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
-
-
-
 # ADSP modules - from S62Pro
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so|c240d45c3a5fc37b964c4adab06f4cb0bfda62f5
@@ -341,8 +338,10 @@ vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 # Protobuf - from sweet - V14.0.4.0.THGMIXM
 vendor/lib/libprotobuf-cpp-full-3.9.1.so
 vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite.so
 vendor/lib64/libprotobuf-cpp-full-3.9.1.so
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite.so
 
 # Postprocessing - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
