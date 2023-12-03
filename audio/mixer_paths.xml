@@ -2817,6 +2817,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <path name="headset-mic" />
     </path>
 
+    <path name="unprocessed-stereo-mic">
+        <path name="handset-dmic-endfire" />
+    </path>
+
     <!-- Added for ADSP testfwk -->
     <path name="ADSP testfwk">
         <ctl name="INT0_MI2S_RX_DL_HL Switch" value="1" />
