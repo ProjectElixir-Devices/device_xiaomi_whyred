@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "repository": "device_xiaomi_whyred",
+    "target_path": "device/xiaomi/whyred"
   },
   {
-    "repository": "android_kernel_xiaomi_sdm660",
+    "repository": "kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660"
+  }
+  },
+    "repository": "vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred"
   }
 ]
