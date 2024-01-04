@@ -383,6 +383,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Build rro_overlays
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayWhyred
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
