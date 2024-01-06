@@ -43,6 +43,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     androidboot.boot_devices=soc/c0c4000.sdhci \
+    androidboot.init_fatal_reboot_target=recovery \
     androidboot.configfs=true \
     androidboot.hardware=qcom \
     androidboot.super_partition=system \
