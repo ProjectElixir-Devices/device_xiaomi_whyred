@@ -387,7 +387,7 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage \
-    $(DEVICE_PATH)/overlay-evolution
+    $(DEVICE_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

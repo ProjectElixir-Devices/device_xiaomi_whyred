@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2018-2019 The evolutionOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2022 The Project Elixir
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_whyred.mk
+    $(LOCAL_DIR)/aosp_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_whyred-user \
-    evolution_whyred-userdebug \
-    evolution_whyred-eng
+    aosp_whyred-user \
+    aosp_whyred-userdebug \
+    aosp_whyred-eng
